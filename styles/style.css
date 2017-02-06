@@ -38,3 +38,61 @@ img {
 .nav-list__item {
   margin: 0.5rem 1rem;
 }
+
+.section {
+  padding: 3rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 65rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid__item {
+  flex-basis: calc(100% / 2 - 2rem);
+  margin: 1rem;
+  flex-grow: 1;
+}
+
+.card {
+  border: rgba(227,227,227,.47) solid 0.1rem;
+  padding: 1rem;
+  min-width: 15rem;
+  position: relative;
+}
+
+.card__header {
+  background: goldenrod;
+  margin: -1rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.card-title {
+  margin-left: 2rem;
+}
+
+.card__tag {
+  background: #37abdd;
+  position: absolute;
+  top: -1.5rem;
+  right: 50%;
+  transform: translate(50%);
+  padding: 1rem;
+  color: #fefefe;
+}
+
+.card__img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+  left: -1.5rem;
+  transform: translate(0, -50%);
+}
