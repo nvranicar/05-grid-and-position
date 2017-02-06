@@ -96,3 +96,7 @@ img {
   left: -1.5rem;
   transform: translate(0, -50%);
 }
+
+.card__text {
+  padding-top: 1rem;
+}
