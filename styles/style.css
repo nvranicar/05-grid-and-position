@@ -60,10 +60,9 @@ img {
 }
 
 .card {
-  border: rgba(227,227,227,.47) solid 0.1rem;
+  /*border: rgba(227,227,227,.47) solid 0.1rem;*/
   padding: 1rem;
   min-width: 15rem;
-  position: relative;
   box-shadow: 3px 3px 3px rgba(15,15,15,.6);
 }
 
@@ -81,12 +80,14 @@ img {
 .card__tag {
   background: #37abdd;
   position: absolute;
-  top: -1.5rem;
+  top: -35%;
   right: 50%;
   transform: translate(50%);
   padding: 1rem;
   color: #fefefe;
   box-shadow: 3px 3px 3px rgba(15,15,15,.6);
+  margin: 0;
+  min-width: 9rem;
 }
 
 .card__img {
@@ -95,11 +96,13 @@ img {
   height: 3rem;
   position: absolute;
   top: 50%;
-  left: -1.5rem;
+  left: -5%;
   transform: translate(0, -50%);
   box-shadow: 3px 3px 3px rgba(15,15,15,.6);
 }
 
-.card__text {
-  padding-top: 1rem;
+.card__content {
+  border: rgba(213,213,213,.57) solid 0.1rem;
+  margin: -1rem;
+  padding: 1rem 2rem;
 }
